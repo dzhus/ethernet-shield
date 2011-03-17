@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Thu Mar 17 18:55:51 2011
+# date:    Thu Mar 17 19:14:36 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -8,7 +8,7 @@ FileVersion[20100606]
 
 PCB["Arduino Ethernet Through-Hole Shield" 216535 275591]
 
-Grid[393.700775 0 0 1]
+Grid[393.700775 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1179,7 +1179,7 @@ Element["" "LQFP_40P_1300L1_1300L2_80N__WIZnet" "U2" "unknown" 84487 97957 -2874
 
 	)
 
-Element["" "ACY-25" "C2" "18n" 86614 11024 11500 -7000 3 100 ""]
+Element["" "ACY-25" "C2" "18n" 86614 11024 -13300 -2839 0 100 ""]
 (
 	Pin[0 -5000 6000 2000 8000 3500 "" "1" ""]
 	Pin[0 5000 6000 2000 8000 3500 "" "2" ""]
@@ -1324,7 +1324,7 @@ Element["" "RES-600P-340L-190D__Yageo-M-TYPE-12.fp" "FB3" "unknown" 86220 164173
 
 	)
 
-Element["" "ACY-25" "C3" "18n" 126614 10949 11500 -7000 3 100 ""]
+Element["" "ACY-25" "C3" "18n" 126614 10949 -13216 -3000 0 100 ""]
 (
 	Pin[0 -5000 6000 2000 8000 3500 "" "1" ""]
 	Pin[0 5000 6000 2000 8000 3500 "" "2" ""]
@@ -1451,6 +1451,19 @@ Element["" "0.125W_Carbon_Resistor" "R2" "49.9" 150392 246060 6387 -6714 0 100 "
 	ElementLine [-4000 -9000 -4000 -21000 1000]
 	ElementLine [4000 -9000 -4000 -9000 1000]
 	ElementLine [0 -5000 0 -9000 1000]
+
+	)
+
+Element["" "ACY-25" "C8" "47n" 143976 30986 -12903 -4573 0 100 ""]
+(
+	Pin[0 -5000 6000 2000 8000 3500 "" "1" ""]
+	Pin[0 5000 6000 2000 8000 3500 "" "2" ""]
+	ElementLine [-4500 7000 -4500 7000 1000]
+	ElementLine [-4500 -7000 -4500 -7000 1000]
+	ElementLine [-4500 -7000 -4500 7000 1000]
+	ElementLine [4500 7000 4500 7000 1000]
+	ElementLine [4500 -7000 4500 -7000 1000]
+	ElementLine [4500 -7000 4500 7000 1000]
 
 	)
 Layer(1 "top")
@@ -1954,6 +1967,8 @@ Layer(2 "bottom")
 	Line[36613 246064 42913 246064 1181 2362 "clearline"]
 	Line[42913 246064 49213 239764 1181 2362 "clearline"]
 	Line[69762 40945 53937 40945 2362 4724 "clearline"]
+	Line[143976 25986 143976 6811 2362 4724 "clearline"]
+	Line[143976 6811 144094 6693 2362 4724 "clearline"]
 )
 Layer(3 "outline")
 (
@@ -2047,6 +2062,7 @@ NetList()
 		Connect("C3-1")
 		Connect("C4-1")
 		Connect("C5-2")
+		Connect("C8-1")
 		Connect("C9-1")
 		Connect("C10-2")
 		Connect("C11-2")
@@ -2088,10 +2104,23 @@ NetList()
 	)
 	Net("RESET" "(unknown)")
 	(
+		Connect("C8-2")
 		Connect("CONN3-1")
 		Connect("R8-1")
 		Connect("S1-1")
 		Connect("U2-59")
+	)
+	Net("RXIN" "(unknown)")
+	(
+		Connect("CONN1-6")
+		Connect("R1-1")
+		Connect("U2-6")
+	)
+	Net("RXIP" "(unknown)")
+	(
+		Connect("CONN1-3")
+		Connect("R2-1")
+		Connect("U2-5")
 	)
 	Net("SCLK" "(unknown)")
 	(
@@ -2102,6 +2131,18 @@ NetList()
 	(
 		Connect("CONN2-3")
 		Connect("U2-29")
+	)
+	Net("TXON" "(unknown)")
+	(
+		Connect("CONN1-2")
+		Connect("R7-1")
+		Connect("U2-9")
+	)
+	Net("TXOP" "(unknown)")
+	(
+		Connect("CONN1-1")
+		Connect("R6-1")
+		Connect("U2-8")
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
@@ -2171,82 +2212,58 @@ NetList()
 	)
 	Net("unnamed_net13" "(unknown)")
 	(
-		Connect("CONN1-1")
-		Connect("R6-1")
-		Connect("U2-8")
-	)
-	Net("unnamed_net14" "(unknown)")
-	(
-		Connect("CONN1-6")
-		Connect("R1-1")
-		Connect("U2-6")
-	)
-	Net("unnamed_net15" "(unknown)")
-	(
 		Connect("J2-1")
 		Connect("R16-1")
 		Connect("U2-31")
 	)
-	Net("unnamed_net16" "(unknown)")
-	(
-		Connect("CONN1-3")
-		Connect("R2-1")
-		Connect("U2-5")
-	)
-	Net("unnamed_net17" "(unknown)")
-	(
-		Connect("CONN1-2")
-		Connect("R7-1")
-		Connect("U2-9")
-	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("D2-1")
 		Connect("RN1-5")
 	)
-	Net("unnamed_net19" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("D3-1")
 		Connect("RN1-6")
 	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("D4-1")
 		Connect("RN1-7")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("D5-1")
 		Connect("RN1-8")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("D6-1")
 		Connect("RN1-9")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("C1-2")
 		Connect("R1-2")
 		Connect("R2-2")
 	)
-	Net("unnamed_net24" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("C5-1")
 		Connect("R6-2")
 		Connect("R7-2")
 	)
-	Net("unnamed_net25" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("CONN3-6")
 	)
-	Net("unnamed_net26" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("C4-2")
 		Connect("CONN1-4")
 		Connect("CONN1-5")
 	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("CONN5-3")
 		Connect("J1-1")
