@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Sat Aug 27 17:43:55 2011
+# date:    Sat Aug 27 17:53:31 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -1292,7 +1292,7 @@ Element["" "0.125W_Carbon_Resistor" "R6" "49.9" 48819 199606 -18416 -2776 0 100 
 
 	)
 
-Element["" "LQFP_40P_1300L1_1300L2_80N__WIZnet" "U2" "unknown" 84487 97957 -28741 -18896 3 100 ""]
+Element["" "LQFP_40P_1300L1_1300L2_80N__WIZnet" "U2" "unknown" 84487 97957 -33970 -20829 0 100 ""]
 (
 	Pad[20997 -15187 25197 -15187 900 3000 3900 "" "80" "edge2"]
 	Pad[20997 -13587 25197 -13587 900 3000 3900 "" "79" "edge2"]
@@ -1941,7 +1941,8 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
-	Text[34251 6692 0 122 "Rev. 3" ""]
+	Text[128937 242126 0 100 "Through-hole Ethernet shield" "clearline"]
+	Text[187794 249801 0 122 "Rev. 4" ""]
 )
 NetList()
 (
