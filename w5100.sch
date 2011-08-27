@@ -473,7 +473,7 @@ C 44500 44900 1 0 0 resistor-2.sym
 T 44900 45250 5 10 0 0 0 0 1
 device=RESISTOR
 T 44700 45200 5 10 1 1 0 0 1
-refdes=R16
+refdes=R10
 T 44500 44900 5 10 0 0 0 0 1
 footprint=0.125W_Carbon_Resistor
 T 44500 44900 5 10 0 0 0 0 1
