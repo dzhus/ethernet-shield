@@ -1,12 +1,12 @@
 # release: pcb 20100929
-# date:    Sat Sep  3 21:23:51 2011
+# date:    Sat Sep  3 22:11:37 2011
 # user:    sphinx ()
 # host:    blizzard
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
 
-PCB["Arduino Ethernet Through-Hole Shield" 433071 275591]
+PCB["Arduino Ethernet Through-Hole Shield" 216535 275591]
 
 Grid[393.700775 0 0 0]
 Cursor[0 0 0.000000]
@@ -822,7 +822,7 @@ Via[91732 86220 3543 1574 0 1575 "" ""]
 Via[29528 123228 4331 2362 0 2362 "" ""]
 Via[35039 123228 4331 2362 0 2362 "" ""]
 
-Element["" "LED3" "D3" "unknown" 111260 45157 -2715 -15914 0 100 ""]
+Element["" "LED3" "D4" "unknown" 111260 45157 -2715 -15914 0 100 ""]
 (
 	Pin[0 -5000 6500 3000 7100 4300 "1" "1" "square"]
 	Pin[0 5000 6500 3000 7100 4300 "2" "2" ""]
@@ -864,7 +864,7 @@ Element["" "0.125W_Carbon_Resistor" "R1" "49.9" 159370 188583 11883 -2714 0 100 
 
 	)
 
-Element["" "0.125W_Carbon_Resistor" "R6" "49.9" 76732 199448 -18416 -2776 0 100 ""]
+Element["" "0.125W_Carbon_Resistor" "R4" "49.9" 76732 199448 -18416 -2776 0 100 ""]
 (
 	Pin[0 0 6000 3000 6000 2800 "1" "1" "edge2"]
 	Pin[-30000 0 6000 3000 6000 2800 "2" "2" "edge2"]
@@ -890,7 +890,7 @@ Element["" "0.125W_Carbon_Resistor" "R9" "10K" 186615 96065 -10739 3126 0 100 ""
 
 	)
 
-Element["" "RCY100" "C7" "10u" 83858 168110 -8247 -8923 0 100 ""]
+Element["" "RCY100" "C10" "10u" 83858 168110 -8247 -8923 0 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3000 "+" "1" "square"]
 	Pin[-10000 0 6000 3000 6600 3000 "-" "2" "thermal(1X)"]
@@ -911,7 +911,7 @@ Element["" "ACY-25" "C9" "100n" 145276 151969 -11331 1886 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-8-1" "CONN2" "unknown" 10000 95500 11000 -5000 3 100 ""]
+Element["" "CONNECTOR-8-1" "CONN3" "unknown" 10000 95500 11000 -5000 3 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
@@ -944,7 +944,7 @@ Element["" "SW__Panasonic_EVQPA_Series" "S1" "unknown" 175604 56640 -2783 -21824
 
 	)
 
-Element["" "0.125W_Carbon_Resistor" "R4" "300" 32280 168897 11508 -2776 0 100 ""]
+Element["" "0.125W_Carbon_Resistor" "R7" "300" 32280 168897 11508 -2776 0 100 ""]
 (
 	Pin[0 0 6000 3000 6000 2800 "1" "1" "edge2"]
 	Pin[30000 0 6000 3000 6000 2800 "2" "2" "edge2,thermal(1X)"]
@@ -987,7 +987,7 @@ Element["" "CONNECTOR-6-1" "CONN4" "unknown" 200000 60000 -11000 5000 1 100 ""]
 
 	)
 
-Element["" "ACY-25" "C5" "100n" 51929 214015 -2630 5949 0 100 ""]
+Element["" "ACY-25" "C2" "100n" 51929 214015 -2630 5949 0 100 ""]
 (
 	Pin[-5000 0 6000 2000 8000 3500 "1" "1" "edge2"]
 	Pin[5000 0 6000 2000 8000 3500 "2" "2" "edge2,thermal(1X)"]
@@ -1038,7 +1038,7 @@ Element["" "13F-6X-par" "CONN1" "unknown" 117775 228346 -12874 -3426 0 166 ""]
 
 	)
 
-Element["" "CONNECTOR-8-1" "CONN5" "unknown" 10000 10000 11000 -5000 3 100 ""]
+Element["" "CONNECTOR-8-1" "CONN2" "unknown" 10000 10000 11000 -5000 3 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1057,7 +1057,7 @@ Element["" "CONNECTOR-8-1" "CONN5" "unknown" 10000 10000 11000 -5000 3 100 ""]
 
 	)
 
-Element["" "LED3" "D5" "unknown" 75040 45275 -2716 -15519 0 100 ""]
+Element["" "LED3" "D2" "unknown" 75040 45275 -2716 -15519 0 100 ""]
 (
 	Pin[0 -5000 6500 3000 7100 4300 "1" "1" "square"]
 	Pin[0 5000 6500 3000 7100 4300 "2" "2" ""]
@@ -1068,7 +1068,7 @@ Element["" "LED3" "D5" "unknown" 75040 45275 -2716 -15519 0 100 ""]
 
 	)
 
-Element["" "CONNECTOR-6-1" "CONN3" "unknown" 200000 130000 -11000 -39095 1 100 ""]
+Element["" "CONNECTOR-6-1" "CONN5" "unknown" 200000 130000 -11000 -39095 1 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1085,7 +1085,7 @@ Element["" "CONNECTOR-6-1" "CONN3" "unknown" 200000 130000 -11000 -39095 1 100 "
 
 	)
 
-Element["" "LED3" "D2" "unknown" 129370 45156 -2756 -15873 0 100 ""]
+Element["" "LED3" "D5" "unknown" 129370 45156 -2756 -15873 0 100 ""]
 (
 	Pin[0 -5000 6500 3000 7100 4300 "1" "1" "square"]
 	Pin[0 5000 6500 3000 7100 4300 "2" "2" ""]
@@ -1096,7 +1096,7 @@ Element["" "LED3" "D2" "unknown" 129370 45156 -2756 -15873 0 100 ""]
 
 	)
 
-Element["" "ACY-25" "C10" "100n" 147757 91851 6541 -3625 0 100 ""]
+Element["" "ACY-25" "C7" "100n" 147757 91851 6541 -3625 0 100 ""]
 (
 	Pin[0 5000 6000 2000 8000 3500 "1" "1" ""]
 	Pin[0 -5000 6000 2000 8000 3500 "2" "2" "thermal(0X,1X)"]
@@ -1122,7 +1122,7 @@ Element["" "ACY-25" "C6" "100n" 95275 152756 -11331 -3234 0 100 ""]
 
 	)
 
-Element["" "ACY-25" "C4" "100n" 71391 218420 -3413 10485 0 100 ""]
+Element["" "ACY-25" "C3" "100n" 71391 218420 -3413 10485 0 100 ""]
 (
 	Pin[0 5000 6000 2000 8000 3500 "1" "1" "thermal(1X)"]
 	Pin[0 -5000 6000 2000 8000 3500 "2" "2" ""]
@@ -1271,7 +1271,7 @@ Element["" "CONNECTOR-2-1" "J1" "unknown" 33071 29921 -1901 16142 0 100 ""]
 
 	)
 
-Element["" "ACY-25" "C3" "18n" 49054 146582 -2981 -11267 0 100 ""]
+Element["" "ACY-25" "C5" "18n" 49054 146582 -2981 -11267 0 100 ""]
 (
 	Pin[-5000 0 6000 2000 8000 3500 "1" "1" "edge2,thermal(1X)"]
 	Pin[5000 0 6000 2000 8000 3500 "2" "2" "edge2"]
@@ -1284,7 +1284,7 @@ Element["" "ACY-25" "C3" "18n" 49054 146582 -2981 -11267 0 100 ""]
 
 	)
 
-Element["" "0.125W_Carbon_Resistor" "R2" "49.9" 159468 199019 11725 -2748 0 100 ""]
+Element["" "0.125W_Carbon_Resistor" "R2" "49.9" 159468 199412 11725 -2748 0 100 ""]
 (
 	Pin[0 0 6000 3000 6000 2800 "1" "1" "edge2"]
 	Pin[30000 0 6000 3000 6000 2800 "2" "2" "edge2"]
@@ -1309,7 +1309,7 @@ Element["" "RES-600P-340L-190D__Yageo-M-TYPE-12.fp" "FB1" "unknown" 82676 106300
 
 	)
 
-Element["" "0.125W_Carbon_Resistor" "R7" "49.9" 76850 188583 -18194 -2816 0 100 ""]
+Element["" "0.125W_Carbon_Resistor" "R3" "49.9" 76850 188583 -18194 -2816 0 100 ""]
 (
 	Pin[0 0 6000 3000 6000 2800 "1" "1" "edge2"]
 	Pin[-30000 0 6000 3000 6000 2800 "2" "2" "edge2"]
@@ -1330,7 +1330,7 @@ Element["" "RCY100" "C12" "100u" 178740 142126 436 -8818 0 100 ""]
 
 	)
 
-Element["" "ACY-25" "C8" "47n" 122835 86614 -11328 -3392 0 100 ""]
+Element["" "ACY-25" "C11" "47n" 122835 86614 -12902 -3392 0 100 ""]
 (
 	Pin[0 -5000 6000 2000 8000 3500 "1" "1" "thermal(1X)"]
 	Pin[0 5000 6000 2000 8000 3500 "2" "2" ""]
@@ -1364,7 +1364,7 @@ Element["" "HC49" "X1" "25Mhz" 74410 124804 -2361 6997 0 100 ""]
 
 	)
 
-Element["" "RCY100" "C11" "10u" 157087 146457 1219 -8847 0 100 ""]
+Element["" "RCY100" "C8" "10u" 157087 146457 1219 -8847 0 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3000 "+" "1" "square"]
 	Pin[10000 0 6000 3000 6600 3000 "-" "2" "thermal(1X)"]
@@ -1385,7 +1385,7 @@ Element["" "0.125W_Carbon_Resistor" "R10" "22K" 185118 80709 -19593 5095 0 100 "
 
 	)
 
-Element["" "NR1-4-9" "RN1" "1K" 101693 20866 50991 3937 1 100 ""]
+Element["" "NR1-4-9" "RN1" "1K" 101693 20866 52244 -3221 0 100 ""]
 (
 	Pin[45000 0 6600 2000 8600 4600 "CMN" "1" "square,edge2"]
 	Pin[35000 0 6600 2000 8600 4600 "R1" "2" "edge2"]
@@ -1404,7 +1404,7 @@ Element["" "NR1-4-9" "RN1" "1K" 101693 20866 50991 3937 1 100 ""]
 
 	)
 
-Element["" "LED3" "D1" "unknown" 147480 45156 -3504 -15912 0 100 ""]
+Element["" "LED3" "D6" "unknown" 147480 45156 -3504 -15912 0 100 ""]
 (
 	Pin[0 -5000 6500 3000 7100 4300 "1" "1" "square"]
 	Pin[0 5000 6500 3000 7100 4300 "2" "2" ""]
@@ -1415,7 +1415,7 @@ Element["" "LED3" "D1" "unknown" 147480 45156 -3504 -15912 0 100 ""]
 
 	)
 
-Element["" "LED3" "D6" "unknown" 56929 45157 -2718 -15716 0 100 ""]
+Element["" "LED3" "D1" "unknown" 56929 45157 -2718 -15716 0 100 ""]
 (
 	Pin[0 -5000 6500 3000 7100 4300 "1" "1" "square"]
 	Pin[0 5000 6500 3000 7100 4300 "2" "2" ""]
@@ -1426,7 +1426,7 @@ Element["" "LED3" "D6" "unknown" 56929 45157 -2718 -15716 0 100 ""]
 
 	)
 
-Element["" "LED3" "D4" "unknown" 93150 45157 -2715 -15717 0 100 ""]
+Element["" "LED3" "D3" "unknown" 93150 45157 -2715 -15717 0 100 ""]
 (
 	Pin[0 -5000 6500 3000 7100 4300 "1" "1" "square"]
 	Pin[0 5000 6500 3000 7100 4300 "2" "2" ""]
@@ -1437,7 +1437,7 @@ Element["" "LED3" "D4" "unknown" 93150 45157 -2715 -15717 0 100 ""]
 
 	)
 
-Element["" "ACY-25" "C2" "18n" 49095 126772 -3457 -11106 0 100 ""]
+Element["" "ACY-25" "C4" "18n" 49095 126772 -3457 -11106 0 100 ""]
 (
 	Pin[-5000 0 6000 2000 8000 3500 "1" "1" "edge2,thermal(1X)"]
 	Pin[5000 0 6000 2000 8000 3500 "2" "2" "edge2"]
@@ -1450,7 +1450,7 @@ Element["" "ACY-25" "C2" "18n" 49095 126772 -3457 -11106 0 100 ""]
 
 	)
 
-Element["" "0.125W_Carbon_Resistor" "R3" "12K" 32282 159056 11507 -2778 0 100 ""]
+Element["" "0.125W_Carbon_Resistor" "R6" "12K" 32282 159056 11507 -2778 0 100 ""]
 (
 	Pin[0 0 6000 3000 6000 2800 "1" "1" "edge2"]
 	Pin[30000 0 6000 3000 6000 2800 "2" "2" "edge2"]
@@ -1480,7 +1480,7 @@ Layer(1 "top")
 	Line[145788 146457 157087 146457 2362 4724 "clearline"]
 	Line[111414 146733 111414 141729 787 1574 "clearline"]
 	Line[200000 69291 206693 75984 1181 2362 "clearline"]
-	Line[115196 198425 158874 198425 1181 2362 "clearline"]
+	Line[115196 198425 151788 198425 1181 2362 "clearline"]
 	Line[125275 193346 130038 188583 1181 2362 "clearline"]
 	Line[54054 146582 59889 146582 1181 2362 "clearline"]
 	Line[190088 69291 200000 69291 1181 2362 "clearline"]
@@ -1498,7 +1498,7 @@ Layer(1 "top")
 	Line[189370 188583 189370 198921 2362 4724 "clearline"]
 	Line[137401 131496 131890 131496 787 1574 "clearline"]
 	Line[103148 246062 103938 246062 1181 2362 "clearline"]
-	Line[158874 198425 159468 199019 1181 2362 "clearline"]
+	Line[77638 29921 86693 20866 1181 2362 "clearline"]
 	Line[144864 129283 139614 129283 787 1574 "clearline"]
 	Line[117814 146733 117814 152314 906 1574 "clearline"]
 	Line[113014 146733 113014 151159 906 1574 "clearline"]
@@ -1802,7 +1802,8 @@ Layer(1 "top")
 	Line[56929 40157 64173 40157 1181 2362 "clearline"]
 	Line[64173 40157 74409 29921 1181 2362 "clearline"]
 	Line[74409 29921 77638 29921 1181 2362 "clearline"]
-	Line[77638 29921 86693 20866 1181 2362 "clearline"]
+	Line[151575 198425 158481 198425 1181 2362 "clearline"]
+	Line[158481 198425 159468 199412 1181 2362 "clearline"]
 )
 Layer(2 "bottom")
 (
@@ -1916,8 +1917,8 @@ Layer(10 "silk")
 (
 	Text[87834 55118 0 100 "COLL" "clearline"]
 	Text[141969 55314 0 100 "SPD" "clearline"]
-	Text[105749 55157 0 100 "FDX" "clearline"]
-	Text[53189 55710 0 100 "TX" "clearline"]
+	Text[106536 55157 0 100 "FDX" "clearline"]
+	Text[54370 55316 0 100 "TX" "clearline"]
 	Text[71494 55317 0 100 "RX" "clearline"]
 	Text[125436 55316 0 100 "LNK" "clearline"]
 	Text[9646 243701 0 100 "Ethernet shield" "clearline"]
@@ -1942,9 +1943,9 @@ NetList()
 	)
 	Net("+3.3VA" "(unknown)")
 	(
-		Connect("C4-2")
+		Connect("C3-2")
 		Connect("C6-1")
-		Connect("C7-1")
+		Connect("C10-1")
 		Connect("CONN1-4")
 		Connect("CONN1-5")
 		Connect("FB2-2")
@@ -1952,11 +1953,11 @@ NetList()
 	)
 	Net("+3.3VD" "(unknown)")
 	(
+		Connect("C7-1")
+		Connect("C8-1")
 		Connect("C9-2")
-		Connect("C10-1")
-		Connect("C11-1")
 		Connect("C13-1")
-		Connect("CONN3-2")
+		Connect("CONN5-2")
 		Connect("FB2-1")
 		Connect("R8-2")
 		Connect("R10-2")
@@ -1969,7 +1970,7 @@ NetList()
 	Net("+5V" "(unknown)")
 	(
 		Connect("C12-1")
-		Connect("CONN3-3")
+		Connect("CONN5-3")
 		Connect("U1-3")
 	)
 	Net("Gled" "(unknown)")
@@ -1980,25 +1981,25 @@ NetList()
 	Net("GNDA" "(unknown)")
 	(
 		Connect("C1-1")
-		Connect("C2-1")
+		Connect("C2-2")
 		Connect("C3-1")
 		Connect("C4-1")
-		Connect("C5-2")
+		Connect("C5-1")
 		Connect("C6-2")
 		Connect("C7-2")
-		Connect("C8-1")
+		Connect("C8-2")
 		Connect("C9-1")
 		Connect("C10-2")
-		Connect("C11-2")
+		Connect("C11-1")
 		Connect("C12-2")
 		Connect("C13-2")
 		Connect("CONN1-15")
 		Connect("CONN1-16")
-		Connect("CONN2-7")
-		Connect("CONN3-4")
-		Connect("CONN3-5")
+		Connect("CONN3-7")
+		Connect("CONN5-4")
+		Connect("CONN5-5")
 		Connect("Q1-3")
-		Connect("R4-2")
+		Connect("R7-2")
 		Connect("S1-2")
 		Connect("U1-1")
 		Connect("U2-4")
@@ -2020,18 +2021,18 @@ NetList()
 	)
 	Net("MISO" "(unknown)")
 	(
-		Connect("CONN2-5")
+		Connect("CONN3-5")
 		Connect("U2-27")
 	)
 	Net("MOSI" "(unknown)")
 	(
-		Connect("CONN2-4")
+		Connect("CONN3-4")
 		Connect("U2-28")
 	)
 	Net("RESET" "(unknown)")
 	(
-		Connect("C8-2")
-		Connect("CONN3-1")
+		Connect("C11-2")
+		Connect("CONN5-1")
 		Connect("R8-1")
 		Connect("S1-1")
 		Connect("U2-59")
@@ -2050,70 +2051,70 @@ NetList()
 	)
 	Net("SCLK" "(unknown)")
 	(
-		Connect("CONN2-6")
+		Connect("CONN3-6")
 		Connect("U2-30")
 	)
 	Net("SCS" "(unknown)")
 	(
-		Connect("CONN2-3")
+		Connect("CONN3-3")
 		Connect("R9-1")
 		Connect("U2-29")
 	)
 	Net("TXON" "(unknown)")
 	(
 		Connect("CONN1-2")
-		Connect("R7-1")
+		Connect("R3-1")
 		Connect("U2-9")
 	)
 	Net("TXOP" "(unknown)")
 	(
 		Connect("CONN1-1")
-		Connect("R6-1")
+		Connect("R4-1")
 		Connect("U2-8")
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("C2-2")
+		Connect("C4-2")
 		Connect("R5-1")
 		Connect("U2-75")
 		Connect("X1-1")
 	)
 	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("C3-2")
+		Connect("C5-2")
 		Connect("R5-2")
 		Connect("U2-76")
 		Connect("X1-2")
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("R3-2")
+		Connect("R6-2")
 		Connect("U2-1")
 	)
 	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("R3-1")
-		Connect("R4-1")
+		Connect("R6-1")
+		Connect("R7-1")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
-		Connect("D2-1")
+		Connect("D5-1")
 		Connect("RN1-3")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("CONN1-10")
-		Connect("D2-2")
+		Connect("D5-2")
 		Connect("U2-66")
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("D4-2")
+		Connect("D3-2")
 		Connect("U2-71")
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("D3-2")
+		Connect("D4-2")
 		Connect("U2-70")
 	)
 	Net("unnamed_net9" "(unknown)")
@@ -2123,18 +2124,18 @@ NetList()
 	)
 	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("D5-2")
+		Connect("D2-2")
 		Connect("U2-72")
 	)
 	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("CONN1-11")
-		Connect("D1-2")
+		Connect("D6-2")
 		Connect("U2-67")
 	)
 	Net("unnamed_net12" "(unknown)")
 	(
-		Connect("D6-2")
+		Connect("D1-2")
 		Connect("U2-73")
 	)
 	Net("unnamed_net13" "(unknown)")
@@ -2145,27 +2146,27 @@ NetList()
 	)
 	Net("unnamed_net14" "(unknown)")
 	(
-		Connect("D1-1")
+		Connect("D6-1")
 		Connect("RN1-2")
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
-		Connect("D3-1")
+		Connect("D4-1")
 		Connect("RN1-4")
 	)
 	Net("unnamed_net16" "(unknown)")
 	(
-		Connect("D4-1")
+		Connect("D3-1")
 		Connect("RN1-5")
 	)
 	Net("unnamed_net17" "(unknown)")
 	(
-		Connect("D5-1")
+		Connect("D2-1")
 		Connect("RN1-6")
 	)
 	Net("unnamed_net18" "(unknown)")
 	(
-		Connect("D6-1")
+		Connect("D1-1")
 		Connect("RN1-7")
 	)
 	Net("unnamed_net19" "(unknown)")
@@ -2176,20 +2177,16 @@ NetList()
 	)
 	Net("unnamed_net20" "(unknown)")
 	(
-		Connect("C5-1")
-		Connect("R6-2")
-		Connect("R7-2")
+		Connect("C2-1")
+		Connect("R3-2")
+		Connect("R4-2")
 	)
 	Net("unnamed_net21" "(unknown)")
 	(
-		Connect("CONN3-6")
-	)
-	Net("unnamed_net22" "(unknown)")
-	(
-		Connect("CONN5-3")
+		Connect("CONN2-3")
 		Connect("J1-1")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("Q1-2")
 		Connect("R9-2")
