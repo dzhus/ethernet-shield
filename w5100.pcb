@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Sat Sep  3 22:11:37 2011
+# date:    Sat Sep  3 23:33:14 2011
 # user:    sphinx ()
 # host:    blizzard
 
@@ -957,7 +957,7 @@ Element["" "0.125W_Carbon_Resistor" "R7" "300" 32280 168897 11508 -2776 0 100 ""
 
 	)
 
-Element["" "ACY-25" "C1" "100n" 184370 213583 -1500 6000 0 100 ""]
+Element["" "ACY-25" "C1" "100n" 184370 213583 -1894 4819 0 100 ""]
 (
 	Pin[-5000 0 6000 2000 8000 3500 "1" "1" "edge2,thermal(1X)"]
 	Pin[5000 0 6000 2000 8000 3500 "2" "2" "edge2"]
@@ -987,7 +987,7 @@ Element["" "CONNECTOR-6-1" "CONN4" "unknown" 200000 60000 -11000 5000 1 100 ""]
 
 	)
 
-Element["" "ACY-25" "C2" "100n" 51929 214015 -2630 5949 0 100 ""]
+Element["" "ACY-25" "C2" "100n" 51929 214015 -2630 5161 0 100 ""]
 (
 	Pin[-5000 0 6000 2000 8000 3500 "1" "1" "edge2"]
 	Pin[5000 0 6000 2000 8000 3500 "2" "2" "edge2,thermal(1X)"]
@@ -1475,6 +1475,32 @@ Element["" "0.125W_Carbon_Resistor" "R8" "10K" 125195 71259 11508 5093 0 100 ""]
 	ElementLine [5000 0 9000 0 1000]
 
 	)
+
+Element["" "0.125W_Carbon_Resistor" "R12" "1K" 198111 237795 -19674 -10572 0 100 ""]
+(
+	Pin[0 0 6000 3000 6000 2800 "" "1" "edge2"]
+	Pin[-30000 0 6000 3000 6000 2800 "" "2" "edge2"]
+	ElementLine [-25000 0 -21000 0 1000]
+	ElementLine [-21000 -4000 -9000 -4000 1000]
+	ElementLine [-21000 -4000 -21000 4000 1000]
+	ElementLine [-21000 4000 -9000 4000 1000]
+	ElementLine [-9000 -4000 -9000 4000 1000]
+	ElementLine [-9000 0 -5000 0 1000]
+
+	)
+
+Element["" "0.125W_Carbon_Resistor" "R11" "1K" 198031 249604 -18411 4311 0 100 ""]
+(
+	Pin[0 0 6000 3000 6000 2800 "" "1" "edge2"]
+	Pin[-30000 0 6000 3000 6000 2800 "" "2" "edge2"]
+	ElementLine [-25000 0 -21000 0 1000]
+	ElementLine [-21000 -4000 -9000 -4000 1000]
+	ElementLine [-21000 -4000 -21000 4000 1000]
+	ElementLine [-21000 4000 -9000 4000 1000]
+	ElementLine [-9000 -4000 -9000 4000 1000]
+	ElementLine [-9000 0 -5000 0 1000]
+
+	)
 Layer(1 "top")
 (
 	Line[145788 146457 157087 146457 2362 4724 "clearline"]
@@ -1667,7 +1693,7 @@ Layer(1 "top")
 	Line[108214 93754 109842 92126 787 1574 "clearline"]
 	Line[192913 122913 192913 118110 1181 2362 "clearline"]
 	Line[109842 92126 116535 92126 787 1574 "clearline"]
-	Line[168110 219291 185039 236220 2362 4724 "clearline"]
+	Line[198031 249604 198031 233463 2362 4724 "clearline"]
 	Line[82677 111811 80709 111811 787 1574 "clearline"]
 	Line[98714 127683 92644 127683 787 1574 "clearline"]
 	Line[94488 119291 94488 111417 787 1574 "clearline"]
@@ -1804,6 +1830,14 @@ Layer(1 "top")
 	Line[74409 29921 77638 29921 1181 2362 "clearline"]
 	Line[151575 198425 158481 198425 1181 2362 "clearline"]
 	Line[158481 198425 159468 199412 1181 2362 "clearline"]
+	Line[152741 237795 144475 246061 1181 2362 "clearline"]
+	Line[91075 246061 97376 252362 1181 2362 "clearline"]
+	Line[97376 252362 165273 252362 1181 2362 "clearline"]
+	Line[165273 252362 168031 249604 1181 2362 "clearline"]
+	Line[168111 237795 152741 237795 1181 2362 "clearline"]
+	Line[198031 233463 189765 225197 2362 4724 "clearline"]
+	Line[189765 225197 174016 225197 2362 4724 "clearline"]
+	Line[174016 225197 168110 219291 2362 4724 "clearline"]
 )
 Layer(2 "bottom")
 (
@@ -1961,6 +1995,8 @@ NetList()
 		Connect("FB2-1")
 		Connect("R8-2")
 		Connect("R10-2")
+		Connect("R11-1")
+		Connect("R12-1")
 		Connect("RN1-1")
 		Connect("U1-2")
 		Connect("U2-12")
@@ -1972,11 +2008,6 @@ NetList()
 		Connect("C12-1")
 		Connect("CONN5-3")
 		Connect("U1-3")
-	)
-	Net("Gled" "(unknown)")
-	(
-		Connect("CONN1-9")
-		Connect("RN1-9")
 	)
 	Net("GNDA" "(unknown)")
 	(
@@ -2188,12 +2219,17 @@ NetList()
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("Q1-2")
-		Connect("R9-2")
+		Connect("CONN1-9")
+		Connect("R11-2")
 	)
-	Net("Yled" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("CONN1-12")
-		Connect("RN1-10")
+		Connect("R12-2")
+	)
+	Net("unnamed_net24" "(unknown)")
+	(
+		Connect("Q1-2")
+		Connect("R9-2")
 	)
 )
